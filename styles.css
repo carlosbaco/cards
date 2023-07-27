@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.todo{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    background: #0c0c0c;
+    flex-wrap: wrap;
+}
+.abuelo{
+    width: 250px;
+    height: 270px;
+    padding: 20px;
+    background-color:antiquewhite;
+    border: 12px;
+    border-color: black;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.foto img{
+    width: 50px;
+}
+
+.heading{
+    padding: 12px;
+}
+
+.button{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 250px;
+    height: 100px;
+    
+}
+
+.button button{
+    background-color: navy;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
